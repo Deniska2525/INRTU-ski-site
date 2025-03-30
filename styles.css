@@ -287,6 +287,7 @@ h1,h2,h3,h4,h5,h6{
   overflow: hidden;
   max-width: 900px;
   height: auto;
+  border-radius: 25px;
 }
 .slider-items{
   width: 500%;
@@ -387,7 +388,7 @@ h1,h2,h3,h4,h5,h6{
   padding: 10px;
 }
 .sportsman img{
-  height: 70%;
+  max-height: 70%;
   border-radius: 50px;
 }
 .description{
@@ -578,6 +579,7 @@ tr, td{
   }
   .hero .hero-main{
     flex-direction: column;
+    align-items: center;
   }
   .hero .hero-title{
     order: -2;
@@ -617,6 +619,9 @@ tr, td{
   }
   p{
     font-size: 14px;
+  }
+  .slider{
+    border-radius: 20px;
   }
   .team-frame-container{
     column-gap: 15px;
@@ -660,6 +665,9 @@ tr, td{
   }
   .header-menu-link{
     height: 32px;
+  }
+  .slider{
+    border-radius: 20px;
   }
   .blog{
     max-width: 300px;
